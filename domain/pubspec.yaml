@@ -1,0 +1,19 @@
+name: domain
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  core:
+    path: ../core
+
+  # di
+  get_it:
+
+  # utils
+  equatable:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
