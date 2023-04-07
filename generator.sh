@@ -3,6 +3,8 @@ flutter clean
 flutter pub get
 cd core
 flutter pub get
+cd ../data
+flutter pub get
 cd ../domain
 flutter pub get
 cd ../presentation
@@ -13,4 +15,6 @@ pod install
 cd ../presentation
 flutter pub run build_runner build --delete-conflicting-outputs
 cd ../domain
+flutter pub run build_runner build --delete-conflicting-outputs
+cd ../data
 flutter pub run build_runner build --delete-conflicting-outputs

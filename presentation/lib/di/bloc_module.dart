@@ -4,6 +4,6 @@ import 'package:presentation/features/documents/bloc/documents_cubit.dart';
 void init(GetIt locator) {
   locator
     ..registerFactory(
-      () => DocumentsCubit(router: locator()),
+      () => DocumentsCubit(router: locator(), getUnsortedUseCase: locator()),
     );
 }

@@ -122,11 +122,35 @@ abstract class AppLocalizations {
   /// **'Deleted'**
   String get deleted;
 
+  /// No description provided for @search.
+  ///
+  /// In en, this message translates to:
+  /// **'Search'**
+  String get search;
+
+  /// No description provided for @hide.
+  ///
+  /// In en, this message translates to:
+  /// **'Hide'**
+  String get hide;
+
   /// No description provided for @categoryStatus.
   ///
   /// In en, this message translates to:
   /// **'{files} files・{hours} hour ago'**
   String categoryStatus(Object files, Object hours);
+
+  /// No description provided for @pinnedFolders.
+  ///
+  /// In en, this message translates to:
+  /// **'PINNED FOLDERS・{folders}'**
+  String pinnedFolders(Object folders);
+
+  /// No description provided for @unsorted.
+  ///
+  /// In en, this message translates to:
+  /// **'UNSORTED・{date}'**
+  String unsorted(Object date);
 }
 
 class _AppLocalizationsDelegate

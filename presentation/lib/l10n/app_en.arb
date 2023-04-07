@@ -4,11 +4,25 @@
     "other": "Other",
     "reports": "Reports",
     "deleted": "Deleted",
+    "search": "Search",
+    "hide": "Hide",
     "categoryStatus": "{files} files・{hours} hour ago",
             "@categoryStatus": {
               "placeholders": {
                 "files": {},
                 "hours": {}
               }
-            }
+            },
+    "pinnedFolders": "PINNED FOLDERS・{folders}",
+                "@pinnedFolders": {
+                  "placeholders": {
+                    "folders": {}
+                  }
+                },
+    "unsorted": "UNSORTED・{date}",
+                    "@unsorted": {
+                      "placeholders": {
+                        "date": {}
+                      }
+                    }
 }

@@ -20,7 +20,23 @@ class AppLocalizationsEn extends AppLocalizations {
   String get deleted => 'Deleted';
 
   @override
+  String get search => 'Search';
+
+  @override
+  String get hide => 'Hide';
+
+  @override
   String categoryStatus(Object files, Object hours) {
     return '$files files・$hours hour ago';
+  }
+
+  @override
+  String pinnedFolders(Object folders) {
+    return 'PINNED FOLDERS・$folders';
+  }
+
+  @override
+  String unsorted(Object date) {
+    return 'UNSORTED・$date';
   }
 }

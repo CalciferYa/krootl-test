@@ -20,5 +20,5 @@ void setEnvironment(Environment env) {
 }
 
 Map<String, dynamic> _prodConstants = {
-  _baseUrl: 'https://httpbin.org/',
+  _baseUrl: 'https://jsonplaceholder.typicode.com/',
 };
