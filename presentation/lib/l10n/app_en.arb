@@ -1,0 +1,14 @@
+{
+    "inbox": "Inbox",
+    "linkedFiles": "Linked Files",
+    "other": "Other",
+    "reports": "Reports",
+    "deleted": "Deleted",
+    "categoryStatus": "{files} files・{hours} hour ago",
+            "@categoryStatus": {
+              "placeholders": {
+                "files": {},
+                "hours": {}
+              }
+            }
+}
